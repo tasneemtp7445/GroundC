@@ -25,7 +25,7 @@ jobs:
         host: windows
         target: desktop
         arch: win64_mingw
-        modules: qtmultimedia qtgraphs qtcharts qtshadertools
+        modules: qtmultimedia qtgraphs qtcharts qtshadertools qtquick3d
 
     - name: Setup build
       shell: bash
